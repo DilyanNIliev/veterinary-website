@@ -1,0 +1,75 @@
+@import url('./css-reset.css');
+@import url('./header.css');
+@import url('./font-awesome.css');
+@import url('./medical-services.css');
+@import url('./other-services.css');
+
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper a.btn {
+    color: #fff;
+    border-radius: 5px;
+    padding:10px 25px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.wrapper a.btn.primary {
+    background-color: #00bdc9;
+    border: 3px solid transparent;
+    margin-right: 30px;
+
+}
+
+.wrapper a.btn.primary:hover {
+    border: 3px solid #fff;
+    background: transparent;
+    transition: .5s;
+
+}
+
+.wrapper a.btn.secondary {
+    border: 3px solid #fff;
+}
+
+.wrapper a.btn.secondary:hover {
+    border: 3px solid transparent;
+    color:#00bdc9;
+    transition: .5s;
+}
+
+.wrapper a.btn.third {
+    background-color: #fbc301;
+    border: 2px solid transparent;
+}
+
+.wrapper a.btn.third:hover {
+    color: #fbc301;
+    background-color: transparent;
+    border: 2px solid #fbc301;
+    transition: .5s;
+}
+
+.wrapper a.btn.fourth {
+    background: #00bdc9;
+    border-radius: 25px;
+    border: 2px solid #00bdc9;
+}
+
+
+.wrapper a.btn.fourth:hover {
+    background: transparent;
+    color:#00bdc9;
+    transition: .5s;
+}
+
